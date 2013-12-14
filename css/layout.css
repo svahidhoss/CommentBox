@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 12, 2013, 8:37:21 PM
+    Author     : Vahid
+*/
+
+/*wild card to get rid of margins and padding*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+/* grey background*/
+body{
+    background: #c7c7c7;
+}
+
+
+
+a img {
+	border: none;
+}
+
+.wrapper {
+        background: #fff;
+	width: 750px;
+	border: 1px solid #a1a1a1;
+	margin: 10px auto 10px auto;
+	height: 600px;
+}
+
+.page-data {
+    width: auto;
+    height: 50px;
+    color: #444;
+    margin: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.comment-wrapper {
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    height: auto;
+    width: auto;
+    color: #444;
+}
+
+h3.comment-title {
+    height: 40px;
+    line-height: 37px;
+    font-size: 14px;
+    margin: 0 5px 0 5px;
+    color: #333;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.comment-list {
+    height: auto;
+    font-size: 13px;
+    margin: 10px 5px 5px 5px;
+    color: #555;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+ul.comment-holder-ul {
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ width: auto;
+ height: auto;
+ overflow: hidden;
+}
+
+ul.comment-holder-ul li.comment-holder {
+    list-style-type: none;
+    height: auto;
+    width: auto;
+    margin: 5px 0 5px 0;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+
+/* rollover effec; can be done with js too */
+ul.comment-holder-ul li.comment-holder :hover{
+    background: #FFFFDB;
+    
+}
+
+ul.comment-holder-ul li.comment-holder .user-img
+{
+    float: left;
+    height: 65px;
+    width: 65px;
+    margin: 0 10px 0 0;
+}
+ul.comment-holder-ul li.comment-holder .user-img img.user-img-pic
+{
+    width: 55px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid #a1a1a1;
+}
+
+
+.comment-body {
+    width: auto;
+}
+
+ul.comment-holder-ul li.comment-holder .username-field
+{
+    height: 30px;
+    /*float: left; the problem*/
+    line-height: 27px;
+    color: #2E5CB8;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+ul.comment-holder-ul li.comment-holder .comment-text {
+    display: block;
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    /* we know it's cheating but it's done!''*/
+    margin: 0 10px 10px 75px;
+    word-wrap: normal;
+}
